@@ -442,6 +442,8 @@ func (c ChainCmd) BankSendCommand(fromAddress, toAddress, amount string) step.Op
 		fromAddress,
 		toAddress,
 		amount,
+		"--fees",
+		"100000000swth",
 		optionYes,
 	)
 
