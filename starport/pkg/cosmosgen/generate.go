@@ -11,7 +11,7 @@ import (
 	"github.com/tendermint/starport/starport/pkg/protopath"
 )
 
-var sdkImport = "github.com/cosmos/cosmos-sdk"
+var sdkImport = "github.com/Switcheo/cosmos-sdk"
 
 func (g *generator) setup() (err error) {
 	// Cosmos SDK hosts proto files of own x/ modules and some third party ones needed by itself and
