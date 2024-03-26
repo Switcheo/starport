@@ -504,6 +504,8 @@ func (c ChainCmd) BankSendCommand(fromAddress, toAddress, amount string, options
 		fromAddress,
 		toAddress,
 		amount,
+		"--fees",
+		"100000000swth",
 		optionBroadcastMode, flags.BroadcastSync,
 		optionYes,
 	)

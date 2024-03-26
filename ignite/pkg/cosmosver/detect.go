@@ -10,7 +10,7 @@ var (
 	// CosmosSDKRepoName defines the name of the Cosmos SDK repository.
 	CosmosSDKRepoName = "cosmos-sdk"
 	// CosmosModulePath defines Cosmos SDK import path.
-	CosmosModulePath = "github.com/cosmos/cosmos-sdk"
+	CosmosModulePath = "github.com/Switcheo/cosmos-sdk"
 	// CosmosSDKModulePathPattern defines a regexp pattern for Cosmos SDK import path.
 	CosmosSDKModulePathPattern = regexp.MustCompile(CosmosSDKRepoName + "$")
 )
